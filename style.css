@@ -1,7 +1,7 @@
 /* ------ BARRE ROSE ------ */
 header {
 background: #ff0055;
-padding: 0.35rem 2rem; /* <-- réduit la marge verticale */
+padding: 0.1rem 2rem; /* <-- réduit la marge verticale */
 line-height: 1; /* évite tout surplus */
 }
 
@@ -15,9 +15,10 @@ height: 100%; /* prend toute la hauteur du header */
 /* ------ LOGO ------ */
 .logo {
 height: 100%; /* = hauteur de la barre rose */
-width: auto;
+max-width: 100px;
 display: block;
 }
+
 
 
 
