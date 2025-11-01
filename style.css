@@ -1,79 +1,23 @@
-* { margin: 0; padding: 0; box-sizing: border-box; }
-body {
-font-family: "Segoe UI", sans-serif;
-line-height: 0.5;
-color: #222;
-}
+/* ------ BARRE ROSE ------ */
 header {
 background: #ff0055;
-color: #fff;
-padding: 1rem 2rem;
+padding: 0.35rem 2rem; /* <-- réduit la marge verticale */
+line-height: 1; /* évite tout surplus */
 }
+
 nav {
 display: flex;
 justify-content: space-between;
 align-items: center;
+height: 100%; /* prend toute la hauteur du header */
 }
-nav ul {
-list-style: none;
-display: flex;
-gap: 1rem;
-}
-nav a {
-color: #fff;
-text-decoration: none;
-}
-section {
-padding: 4rem 2rem;
-max-width: 900px;
-margin: auto;
-}
-#hero {
-background: #ffeef8;
-text-align: center;
-}
-.cards {
-display: flex;
-gap: 1rem;
-flex-wrap: wrap;
-justify-content: center;
-}
-.card {
-background: #fff0f5;
-padding: 2rem;
-border-radius: 8px;
-width: 250px;
-text-align: center;
-box-shadow: 0 2px 6px rgba(0,0,0,.1);
-}
-form {
-display: flex;
-flex-direction: column;
-gap: 1rem;
-max-width: 400px;
-margin: auto;
-}
-input, textarea, button {
-padding: .75rem;
-font-size: 1rem;
-border: 1px solid #ccc;
-border-radius: 4px;
-}
-button {
-background: #ff0055;
-color: #fff;
-border: none;
-cursor: pointer;
-}
-footer {
-text-align: center;
-padding: 2rem;
-background: #f7f7f7;
-}
-logo {
-height: 15px; /* ajuste selon ton image */
+
+/* ------ LOGO ------ */
+.logo {
+height: 100%; /* = hauteur de la barre rose */
 width: auto;
-vertical-align: middle;
+display: block;
 }
+
 
 
